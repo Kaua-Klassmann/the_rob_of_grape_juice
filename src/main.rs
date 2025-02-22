@@ -1,3 +1,9 @@
+use bevy::prelude::*;
+
+mod plugins;
+
 fn main() {
-    println!("Hello, world!");
+    App::new()
+        .add_plugins(plugins::WindowConfigPlugin)
+        .run();
 }
