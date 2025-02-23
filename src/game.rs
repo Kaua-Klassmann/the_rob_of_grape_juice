@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 
-use crate::plugins::PlayerPlugin;
+use crate::objects::PlayerPlugin;
 
 pub struct GamePlugin;
 
