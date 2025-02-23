@@ -21,7 +21,7 @@ fn create_player(mut commands: Commands, asset_server: Res<AssetServer>) {
             image: asset_server.load("boneco.png"),
             ..default()
         },
-        Transform::from_xyz(0., 0., 0.),
+        Transform::from_xyz(0., -32. * 5., 0.),
     ));
 }
 
