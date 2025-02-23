@@ -1,3 +1,5 @@
-pub use window_config::WindowConfigPlugin;
+pub use game::PlayerPlugin;
+pub use window::WindowConfigPlugin;
 
-mod window_config;
+mod game;
+mod window;

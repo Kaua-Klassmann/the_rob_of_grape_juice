@@ -12,7 +12,7 @@ impl Plugin for WindowConfigPlugin {
     fn build(&self, app: &mut App) {
         let config = WindowConfig {
             title: "The rob of grape juice".to_string(),
-            resolution: (640., 640.)
+            resolution: (640., 640.),
         };
 
         let window_plugin = WindowPlugin {
