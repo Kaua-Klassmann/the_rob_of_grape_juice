@@ -12,7 +12,6 @@ impl Plugin for PlayerPlugin {
 }
 
 fn create_player(mut commands: Commands, asset_server: Res<AssetServer>) {
-    commands.spawn(Camera2d);
     commands.spawn((
         Player,
         Velocity {
